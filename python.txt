@@ -1,0 +1,78 @@
+aiswarya@LAPTOP-C6H2G1AK:~$ python3
+Python 3.8.10 (default, Jun  2 2021, 10:49:15)
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 31+4
+36
+>>>12/2
+6
+>>> name="aiswarya"
+>>> city="tvm"
+>>> id="1245"
+>>> print("name is "+name+" city:"+city+ "id"+str(id))
+name is aiswarya city:tvm id 1245
+
+>>> num=30
+>>> if(num<50):
+...     print(num, "is less than 50")
+... else:
+...     print(num, "is more than 50")
+...
+30 is less than 50
+
+>>> num=2341
+>>> if(num<10):
+...     print(num, "is a single digit num")
+... elif(num<100):
+...     print(num, "is a double digit num")
+... elif(num<1000):
+...     print(num, "is a triple digit num")
+... elif(num<10000):
+...     print(num, "is a four digit num")
+...
+2341 is a four digit num
+
+>>> name =input("enter your name")
+enter your name aiswarya
+>>> print(name)
+ aiswarya
+
+>>> fruits =["apple","orange","pineapple","strawberry"]
+>>> print(fruits[2])
+pineapple
+>>> for name in fruits:
+...     print(name)
+...
+apple
+orange
+pineapple
+strawberry
+
+>>> def calculate(num):
+...     if(num>20):
+...             print(num*num)
+...     else:
+...             print(num+num)
+...
+>>> calculate(39)
+1521
+>>> calculate(14)
+28
+
+>>> class student:
+...     def setstudent(self,id,name,course):
+...             self.id=id
+...             self.name=name
+...             self.course=course
+...     def getstudent(self):
+...             print(self.id, " ", self.name, " ", self.course)
+...
+>>> std = student()
+>>> std.setstudent(123,"Aiswarya","Python")
+>>> std.getstudent()
+123   Aiswarya   Python
+>>> std.setstudent(123,"Manju","Java")
+>>> std.getstudent()
+123   Manju   Java
+pineapple
+strawberry
